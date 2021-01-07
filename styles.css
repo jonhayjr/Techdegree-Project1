@@ -73,8 +73,17 @@ header .profile-image {
   border: 5px solid #6495ED;
   transition: all .5s;
 }
+
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
+}
+
+.page-image {
+  margin-top: 20px;
+  width: 400px;
+  height: 250px;
+  border: 5px solid black;
+  transition: all .5s;
 }
 .tag {
   background-color: #efefef;
