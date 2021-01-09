@@ -52,7 +52,15 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: white;
+}
+
+.nav-active {
+  border-bottom: 2px solid #999;
+}
+
+.nav-active:hover {
+  border-bottom: 2px solid white;
 }
 
 header {
@@ -60,11 +68,13 @@ header {
   background: url('images/SantaBarbara.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
-  padding-top: 60px;
+  padding-top: 50px;
 }
+
 header {
   line-height: 1.5;
 }
+
 header .profile-image {
   margin-top: 50px;
   width: 150px;
@@ -79,12 +89,15 @@ header .profile-image:hover {
 }
 
 .page-image {
-  margin-top: 20px;
-  width: 400px;
-  height: 250px;
+  margin-top: 50px;
+  width: 75%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
   border: 5px solid black;
   transition: all .5s;
 }
+
 .tag {
   background-color: #efefef;
   color: black;
