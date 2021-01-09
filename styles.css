@@ -129,12 +129,12 @@ ul.skills {
 }
 
 .skills li {
+  display: inline-block;
   border-radius: 6px;
   background: #ff9904;
   color: white;
   padding: 10px;
-  margin: 5px;
-  width: 50%;
+  margin: 2px;
 }
 
 .skills li:nth-child(odd) {
